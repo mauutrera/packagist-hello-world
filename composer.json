@@ -1,0 +1,22 @@
+{
+    "name": "maupkg/helloworld",
+    "description": "A simple PHP Hello World composer package.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maupkg\\": "src/"
+        },
+        "files": [
+            "src/Today.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mauricio Utrera Molina"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2"
+    }
+}
