@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Test files autoload.
+ */
+
 class Today
 {
     public static function now()
